@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1024px;
+  margin: 0px auto;
+}
+
+.circulo{
+  border: 1px solid black;
+  z-index: 20;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+img{
+  float: left;
+  position: absolute;
+}
+.color-white{
+  background-color: white;
+}
+.contenedor{
+  align-items: flex-end;
+      width: 200px;
+      height: 470px;
+      z-index: 10;
+      position: absolute;
+      right: 50%;
+      display: flex;
+      justify-content: space-around;
+}
